@@ -6,57 +6,56 @@
         <meta charset="utf-8"/>
         <style>
             
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                border: 1px solid #e7e7e7;
-                background-color: #f3f3f3;
-            }
+        #navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border: 1px solid #e7e7e7;
+            background-color: #f3f3f3;
+        }
+        #navbar li {
+            float: left;
+        }
+        #navbar li a {
+            display: block;
+            color: #666;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        #navbar li a:hover:not(.active) {
+            background-color: #ddd;
+        }
+        #navbar li a.active {
+            color: white;
+            background-color: #b2b2ff;
+        }
+    </style>
+</head>
 
-            li {
-                float: left;
-            }
+  <body>
 
-            li a {
-                display: block;
-                color: #666;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-
-            li a:hover:not(.active) {
-                background-color: #ddd;
-            }
-
-            li a.active {
-                color: white;
-                background-color: #b2b2ff;
-            }
-        </style>
-    </head>
-    
-    <body>
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="persona1.html">Persona 1</a></li>
-                <li><a href="person2.html">Persona 2</a></li>
-                <li><a href="persona3.html">Persona 3</a></li>
-            </ul>
+    <div id="navbar">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="persona1.html">Persona 1</a></li>
+            <li><a href="persona2.html">Persona 2</a></li>
+            <li><a href="persona3.html">Persona 3</a></li>
+        </ul>
+    </div>
             
-            <h1>Homepage</h1>
-            <h3>Problems</h3>
-            <p>There are many volunteer opportunities, but the process to finding them is overwhelming due to the abundance of resources available online.</p>
-            <br>
-            <h3>Problem Domain</h3>
-            <ol>
-                <li>Hard to find volunteering opportunities that align with your interests and fit into your schedule</li>
-                <li>No way to determine the legitimacy of volunteer opportunities</li>
-                <li>Hard to keep track of volunteer hours and schedule</li>
-                <li>Too many isolated volunteer resources online, but few consolidate every local volunteer resource into one site</li>
-                <li>Current volunteer sites are difficult to navigate</li>             
-            </ol> 
-    </body>
+    <h1>Homepage</h1>
+    <h3>Problems</h3>
+    <p>There are many volunteer opportunities, but the process to finding them is overwhelming due to the abundance of resources available online.</p>
+    <br>
+    <h3>Problem Domain</h3>
+        <ol>
+            <li>Hard to find volunteering opportunities that align with your interests and fit into your schedule</li>
+            <li>No way to determine the legitimacy of volunteer opportunities</li>
+            <li>Hard to keep track of volunteer hours and schedule</li>
+            <li>Too many isolated volunteer resources online, but few consolidate every local volunteer resource into one site</li>
+            <li>Current volunteer sites are difficult to navigate</li>             
+        </ol> 
+  </body>
 </html>
